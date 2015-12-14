@@ -20,7 +20,7 @@ module.exports = nativeDescription: "български език", englishDescri
   nav:
     play: "Нива" # The top nav bar entry where players choose which levels to play
     community: "Общност"
-#    courses: "Courses"
+    courses: "Курсове"
     editor: "Редактор"
     blog: "Блог"
     forum: "Форум"
@@ -55,7 +55,7 @@ module.exports = nativeDescription: "български език", englishDescri
 
   play:
     play_as: "Играй като" # Ladder page
-#    compete: "Compete!" # Course details page
+    compete: "Състезавай се!" # Course details page
     spectate: "Наблюдател" # Ladder page
     players: "Играчи" # Hover over a level on /play
     hours_played: "Изиграни часове" # Hover over a level on /play
@@ -78,7 +78,7 @@ module.exports = nativeDescription: "български език", englishDescri
     subscription_required: "Нужен е абонамент"
     anonymous: "Анонимен играч"
     level_difficulty: "Трудност"
-#    play_classroom_version: "Play Classroom Version" # Choose a level in campaign version that you also can play in one of your courses
+    play_classroom_version: "Играй версията за класна стая" # Choose a level in campaign version that you also can play in one of your courses
     campaign_beginner: "Кампания за начинаещи"
     awaiting_levels_adventurer_prefix: "5 нови нива всяка седмица" # {change}
     awaiting_levels_adventurer: "Стани Търсач на приключения"
@@ -118,9 +118,9 @@ module.exports = nativeDescription: "български език", englishDescri
     social_signup: "Или, можеш да се регистрираш през Facebook или G+:"
     required: "Трабва да влезеш преди можеш да ходиш на там."
     login_switch: "Вече имаш акаунт?"
-#    school_name: "School Name and City"
-#    optional: "optional"
-#    school_name_placeholder: "Example High School, Springfield, IL"
+    school_name: "Име на училището и град"
+    optional: "опционално"
+    school_name_placeholder: "Примерно училище, Пловдив"
 
   recover:
     recover_account_title: "Възстанови Акаунт"
@@ -167,10 +167,10 @@ module.exports = nativeDescription: "български език", englishDescri
     pending: "Изчакващ"
     accepted: "Прието"
     rejected: "Отказано"
-    withdrawn: "Отменено"
-#    accept: "Accept"
-#    reject: "Reject"
-#    withdraw: "Withdraw"
+    withdrawn: "Оттеглено"
+    accept: "Приеми"
+    reject: "Откажи"
+    withdraw: "Оттегли"
     submitter: "Изпращач"
     submitted: "Изпратено"
     commit_msg: "Съпровождащо съобщение"
@@ -225,12 +225,12 @@ module.exports = nativeDescription: "български език", englishDescri
     years: "години"
 
   play_level:
-#    completed_level: "Completed Level:"
-#    course: "Course:"
+    completed_level: "Завършено ниво:"
+    course: "Курс:"
     done: "Готово"
-#    next_level: "Next Level:"
-#    next_game: "Next game"
-#    show_menu: "Show game menu"
+    next_level: "Следващо ниво:"
+    next_game: "Следваща игра"
+    show_menu: "Покажи главното меню"
     home: "На главната" # Not used any more, will be removed soon.
     level: "Ниво" # Like "Level: Dungeons of Kithgard"
     skip: "Прескочи"
@@ -348,7 +348,7 @@ module.exports = nativeDescription: "български език", englishDescri
     tip_free_your_mind: "Трябва да им позволиш да си отидат Нео. Страхът, съмнението и липсата на вяра. Освободи съзнанието си. - Морфеус"
     tip_strong_opponents: "Дори най-силният противник си има слабости. Винаги. - Itachi Uchiha"
     tip_paper_and_pen: "Преди да почнеш с програмирането, винаги започни с планиране на хартия."
-#    tip_solve_then_write: "First, solve the problem. Then, write the code. - John Johnson"
+    tip_solve_then_write: "Първо, реши проблема. После, пиши кода. - John Johnson"
 
   game_menu:
     inventory_tab: "Инвентар"
@@ -562,7 +562,7 @@ module.exports = nativeDescription: "български език", englishDescri
     editor_config_title: "Конфигурация на редактора"
     editor_config_keybindings_label: "Клавишни комбинации"
     editor_config_keybindings_default: "По подразбиране (Ace)"
-#    editor_config_keybindings_description: "Adds additional shortcuts known from the common editors."
+    editor_config_keybindings_description: "Добавя допълнителни преки пътища, познати от широко разпространени редактори."
 #    editor_config_livecompletion_label: "Live Autocompletion"
 #    editor_config_livecompletion_description: "Displays autocomplete suggestions while typing."
 #    editor_config_invisibles_label: "Show Invisibles"
@@ -998,12 +998,12 @@ module.exports = nativeDescription: "български език", englishDescri
 #    available_levels: "Available Levels"
 #    welcome_to_courses: "Adventurers, welcome to Courses!"
 #    ready_to_play: "Ready to play?"
-#    start_new_game: "Start New Game"
-#    play_now_learn_header: "Play now to learn"
-#    play_now_learn_1: "basic syntax to control your character"
-#    play_now_learn_2: "while loops to solve pesky puzzles"
-#    play_now_learn_3: "strings & variables to customize actions"
-#    play_now_learn_4: "how to defeat an ogre (important life skills!)"
+    start_new_game: "Започни Нова Игра"
+    play_now_learn_header: "Играй сега, за да научиш"
+    play_now_learn_1: "основен синтаксис, за да контролираш твоя персонаж"
+    play_now_learn_2: "while цикли, за да решиш инатливи пъзели"
+    play_now_learn_3: "символни низове & променливи, за да персонализирате действия"
+    play_now_learn_4: "как да победиш огър (важни умения в живота!)"
 #    welcome_to_page: "Welcome to your Courses page!"
 #    completed_hoc: "Amazing! You've completed the Hour of Code course!"
 #    ready_for_more_header: "Ready for more? Play the campaign mode!"
@@ -1481,8 +1481,8 @@ module.exports = nativeDescription: "български език", englishDescri
 #    user_remarks: "User Remarks"
 #    versions: "Versions"
 #    items: "Items"
-#    hero: "Hero"
-#    heroes: "Heroes"
+    hero: "Герой"
+    heroes: "Герои"
 #    achievement: "Achievement"
 #    clas: "CLAs"
 #    play_counts: "Play Counts"
